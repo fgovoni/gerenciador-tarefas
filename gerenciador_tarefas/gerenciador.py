@@ -1,7 +1,7 @@
 from enum import Enum
 from uuid import UUID, uuid4
 
-from fastapi import FastAPI, HTTPException,status
+from fastapi import FastAPI, HTTPException, status
 from pydantic import BaseModel, constr
 
 app = FastAPI()
